@@ -207,8 +207,12 @@ section .title::after{
 }
 
 .marco{
-    width: 100%;
-    margin-left: 200px;
+    /* width: 100%; */
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 /* about section styling */
 .about .title::after{
@@ -656,6 +660,12 @@ footer span a:hover{
     }
 }
 @media (max-width: 690px) {
+    .home{
+        display: block;
+    }
+    .marco{
+        display: none;
+    }
     .max-width{
         padding: 0 23px;
     }
