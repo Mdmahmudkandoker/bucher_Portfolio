@@ -31,13 +31,13 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [" Junior web Developer", "Javascript Developer", "Mern stack Developer"],
+        strings: ["Business IT specialist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Front end web Developer", " Junior web Developer","Javascript Developer" , "Mern stack Developer" ],
+        strings: ["Business IT specialist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
